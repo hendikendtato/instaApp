@@ -44,6 +44,8 @@ $routes->add('/logout', 'UsersController::logout');
 
 $routes->get('/home', 'Home::index');
 $routes->get('/profile', 'ProfileController::index');
+$routes->get('/editProfile/(:segment)', 'ProfileController::edit_page/$1');
+$routes->add('/saveProfile', 'ProfileController::save_profile');
 
 $routes->get('/post', 'PostController::index');
 $routes->add('/posting', 'PostController::save_posting');

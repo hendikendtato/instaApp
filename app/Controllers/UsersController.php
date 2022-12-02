@@ -41,7 +41,8 @@ class UsersController extends BaseController
                     'id_user' => $user['id'],
                     'full_name' => $user['full_name'],
                     'username' => $user['username'],
-                    'email' => $user['email']
+                    'email' => $user['email'],
+                    'profile_pict' => $user['profil_pict']
                     ];
                 $this->session->set($sessLogin);
                 return redirect()->to('/home');

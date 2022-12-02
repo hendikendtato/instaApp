@@ -23,10 +23,10 @@
                     </svg>
                 </a> 
             </div>
-            <div class="bio px-4 py-3">
-                Hendik Endtato Edison
+            <div class="bio px-2 py-1">
+                <?= $profile['bio'] ?>
             </div>  
-            <a href="#" class="btn btn-outline-primary btn-block px-3 py-2">Edit Profile</a> 
+            <a href="<?= base_url('editProfile/'.$session->get('id_user')) ?>" class="btn btn-outline-primary btn-block px-3 py-2">Edit Profile</a> 
         </div>
     </div>
     <div class="card">

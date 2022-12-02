@@ -126,7 +126,7 @@ label, button {
     <div class="col-md-4">
       <div class="card">
           <div class="card-header">
-              <h4>Recent Messages</h4>
+              <h4>Teman Dekat</h4>
           </div>
           <div class="card-content pb-4">
               <div class="recent-message d-flex px-4 py-3">
@@ -155,10 +155,6 @@ label, button {
                       <h5 class="mb-1">John Dodol</h5>
                       <h6 class="text-muted mb-0">@dodoljohn</h6>
                   </div>
-              </div>
-              <div class="px-4">
-                  <button class='btn btn-block btn-xl btn-light-primary font-bold mt-3'>Start
-                      Conversation</button>
               </div>
           </div>
       </div>
