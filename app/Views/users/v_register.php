@@ -23,7 +23,7 @@
             <div class="col-md-8">
                 <div id="auth-left">
                     <div class="auth-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo"></a>
+                        <a href="index.html"><img src="<?= base_url('assets/images/logo/logo1.png') ?>" alt="Logo"></a>
                     </div>
                     <h1 class="auth-title">Sign Up</h1>
                     <form action="<?= base_url('/save_register'); ?>" method="POST">
